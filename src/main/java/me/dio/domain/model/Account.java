@@ -28,5 +28,5 @@ public class Account {
     private BigDecimal balance;
 
     @Column(precision = 13, scale = 2)
-    private BigDecimal limit;
+    private BigDecimal account_limit;
 }
